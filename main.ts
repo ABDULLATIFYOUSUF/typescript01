@@ -1,66 +1,72 @@
 // NO.1
-// installed Node.js, TypeScript and VS Code
 
-import { log } from "console";
+console.log('installed Node.js, TypeScript and VS Code') 
+console.log('\n')
 
 // NO.2
 console.log('Answer No.2 > > > > > > > ')
 
-let personName = "Abdul Latif"
-let message = `Hello ${personName}, would you like to learn some python today?`
+let personName:string = "Abdul Latif"
+let message:string = `Hello ${personName}, would you like to learn some python today?`
 console.log(message);
+console.log('\n')
 
 // NO.3
 console.log('Answer No.3 > > > > > > > ')
 
-let lowerCase = personName.toLowerCase()
+let lowerCase:string = personName.toLowerCase()
 console.log(lowerCase);
 
-let upperCase = personName.toUpperCase()
+let upperCase:string = personName.toUpperCase()
 console.log(upperCase);
 
-let caseOne = personName.split(" ")
+let caseOne:any = personName.split(" ")
 let titleCase = " "
 
 for (let i = 0; i < caseOne.length; i++) {
     titleCase += caseOne[i].charAt(0).toUpperCase() + caseOne[i].slice(1).toLowerCase() + " "
 }
 console.log(titleCase)
+console.log('\n')
 
 // NO.4
 console.log('Answer No.4 > > > > > > > ')
 
 console.log('Hazrat Umer (R.A) once said “No amount of guilt can change the past and no amount of worrying can change the future.”')
+console.log('\n')
 
 // NO.5
 console.log('Answer No.5 > > > > > > > ')
 
-let famous_person = "Hazrat Umer (R.A)"
-let message2 = "No amount of guilt can change the past and no amount of worrying can change the future."
+let famous_person:string = "Hazrat Umer (R.A)"
+let message2:string = "No amount of guilt can change the past and no amount of worrying can change the future."
 console.log(`${famous_person} once said "${message2}"`)
+console.log('\n')
 
 // NO.6
 console.log('Answer No.6 > > > > > > > ')
 
-let personsName = "\t    Abdul Latif    \n"
+let personsName:string = "\t    Abdul Latif    \n"
 console.log("person's Name with whitespace =>", personsName)
-let strippedName = personsName.trim()
+let strippedName:string = personsName.trim()
 console.log("Person's Name without whitespace =>", strippedName)
+console.log('\n')
 
 // NO.7
 console.log('Answer No.7 > > > > > > > ')
 
-let addition = 4 + 4
+let addition:number = 4 + 4
 console.log(addition)
 
-let substration = 16 - 8
+let substration:number = 16 - 8
 console.log(substration)
 
-let multiplication = 2 * 4
+let multiplication:number = 2 * 4
 console.log(multiplication)
 
-let division = 16 / 2
+let division:number = 16 / 2
 console.log(division)
+console.log('\n')
 
 // NO.8
 console.log('Answer No.8 > > > > > > > ')
@@ -69,84 +75,92 @@ console.log(4 + 4)
 console.log(16 - 8)
 console.log(2 * 4)
 console.log(16 / 2)
+console.log('\n')
 
 // NO.9
 console.log('Answer No.9 > > > > > > > ')
 
-let favoriteNumber = 19
-let printMessage = `my favorite number is ${favoriteNumber}`
+let favoriteNumber:number = 19
+let printMessage:any = `my favorite number is ${favoriteNumber}`
 console.log(printMessage)
+console.log('\n')
 
 // NO.10
 console.log('Answer No.10 > > > > > > > ')
 
 //  Stored number in a variable. used that variable, created a message that reveals stored number.
-let favoriteNumber1 = 19
-let printMessage1 = `my favorite number is ${favoriteNumber1}`
+let favoriteNumber1:number = 19
+let printMessage1:any = `my favorite number is ${favoriteNumber1}`
 console.log(printMessage1)
 
 // Addition, subtraction, multiplication, and division operations that each result in the number 8.
-let addition1 = 4 + 4
+let addition1:number = 4 + 4
 console.log(addition1)
 
-let substration1 = 16 - 8
+let substration1:number = 16 - 8
 console.log(substration1)
 
-let multiplication1 = 2 * 4
+let multiplication1:number = 2 * 4
 console.log(multiplication1)
 
-let division1 = 16 / 2
+let division1:number = 16 / 2
 console.log(division1)
+console.log('\n')
 
 // NO.11
 console.log('Answer No.11 > > > > > > > ')
 
-let friendsName = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib']
+let friendsName:string[] = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib']
 console.log(friendsName[0])
 console.log(friendsName[1])
 console.log(friendsName[2])
 console.log(friendsName[3])
+console.log('\n')
 
 // NO.12
 console.log('Answer No.12 > > > > > > > ')
 
-let friendsName1 = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib']
+let friendsName1:string[] = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib']
 for (let name of friendsName1) {
     console.log(`Assalamoalaikum ${name}`)
 }
+console.log('\n')
 
 // NO.13
 console.log('Answer No.13 > > > > > > > ')
 
-let transportation = [['Vigo', 'Car'], ['Corolla', 'Car'], ['Suzuki', 'Bike']]
+let transportation:string[][] = [['Vigo', 'Car'], ['Corolla', 'Car'], ['Suzuki', 'Bike']]
 transportation.forEach(([brand, transport]) => {
     console.log(`I would like to own a ${brand} ${transport}`)
 })
+console.log('\n')
 
 // NO.14
 console.log('Answer No.14 > > > > > > > ')
 
-let favoriteGuest = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib']
+let favoriteGuest:string[] = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib']
 for (let guest of favoriteGuest) {
     console.log(`Dear ${guest}, you are invited for dinner at restaurant`)
 }
+console.log('\n')
 
 // NO.15
 console.log('Answer No.15 > > > > > > > ')
 
 // guest who cant join dinner
-let guestCantJoin = 'Shoaib'
+let guestCantJoin:string = 'Shoaib'
 
-let serialNumberofShoaib = favoriteGuest.indexOf(guestCantJoin)
+let serialNumberofShoaib:number = favoriteGuest.indexOf(guestCantJoin)
 
 // new guest
-let newGuest = 'Qasim'
+let newGuest:string = 'Qasim'
 
 favoriteGuest.splice(serialNumberofShoaib, 1, newGuest)
 for (let guest of favoriteGuest) {
     // new messages and invitation list
     console.log(`Dear ${guest}, you are invited for dinner at restaurant`)
 }
+console.log('\n')
 
 // NO.16
 console.log('Answer No.16 > > > > > > > ')
@@ -156,22 +170,23 @@ for (let guest of favoriteGuest) {
 }
 
 //add new guest to beginning of array
-let addNewInBeginning = 'Muhammad'
+let addNewInBeginning:string = 'Muhammad'
 favoriteGuest.unshift(addNewInBeginning)
 
 // add new guest to middle of array
-let addNewInMiddle = 'Haroon'
+let addNewInMiddle:string = 'Haroon'
 let middleOfArray = Math.floor(favoriteGuest.length / 2)
 favoriteGuest.splice(middleOfArray, 0, addNewInMiddle)
 
 // add new guest to end of array
-let addNewInEnd = 'Karim'
+let addNewInEnd:string = 'Karim'
 favoriteGuest.push(addNewInEnd)
 
 // print new invition message
 for (let guest of favoriteGuest) {
     console.log(`Dear ${guest}, you are invited for dinner at restaurant`)
 }
+console.log('\n')
 
 // NO.17
 console.log('Answer No.17 > > > > > > > ')
@@ -193,11 +208,12 @@ for (let guest of favoriteGuest) {
 favoriteGuest.pop()
 favoriteGuest.pop()
 console.log('guest list after programme =>', favoriteGuest)
+console.log('\n')
 
 // NO.18
 console.log('Answer No.18 > > > > > > > ')
 
-let favoritePlaces = ['Makkah', 'Madinah', 'Baghdad', 'Ajmer', 'Turkey']
+let favoritePlaces:string[] = ['Makkah', 'Madinah', 'Baghdad', 'Ajmer', 'Turkey']
 console.log('Original List =>', favoritePlaces)
 console.log('List in Alphabetical Order =>', [...favoritePlaces].sort())
 console.log('Original List =>', favoritePlaces)
@@ -207,26 +223,29 @@ console.log('change list in reverse =>', favoritePlaces.reverse())
 console.log('back to original list =>', favoritePlaces.reverse())
 console.log('stored in alphabetical order =>', favoritePlaces.sort())
 console.log('stored in alphabetical order =>', favoritePlaces.reverse())
+console.log('\n')
 
 // NO.19
 console.log('Answer No.19 > > > > > > > ')
 
-let favoriteGuestOld = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib']
+let favoriteGuestOld:string[] = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib']
 console.log(`we are inviting ${favoriteGuestOld.length} guest for dinner`)
+console.log('\n')
 
 // NO.20
 console.log('Answer No.20 > > > > > > > ')
 
-let languages = ['Urdu', 'Memon', 'Sindhi', 'Punjabi', 'Balochi', 'Pashtu']
+let languages:string[] = ['Urdu', 'Memon', 'Sindhi', 'Punjabi', 'Balochi', 'Pashtu']
 console.log('List of Languages...')
 for (let language of languages) {
     console.log(language)
 }
+console.log('\n')
 
 // NO.21
 console.log('Answer No.21 > > > > > > > ')
 
-const student = {
+const student:object = {
     name: 'Muhammad Qasim',
     Age: 25,
     Address: 'Liaquatabad'
@@ -252,18 +271,20 @@ const student4 = {
 }
 students.push(student4)
 console.log(students)
+console.log('\n')
 
 // NO.22
 console.log('Answer No.22 > > > > > > > ')
 
-let friends = ['qasim', 'latif', 'yousuf', 'bilal', 'hussain']
+let friends:string[] = ['qasim', 'latif', 'yousuf', 'bilal', 'hussain']
 const findFriend = 7
 console.log(friends[findFriend])
+console.log('\n')
 
 // NO.23
 console.log('Answer No.23 > > > > > > > ')
 
-let car = 'subaru';
+let car:string = 'subaru';
 
 console.log("Is car == 'subaru'? I predict True.")
 console.log(car == 'subaru')
@@ -296,21 +317,22 @@ console.log("Is car == 'mercedes'? I predict False.")
 console.log(car == 'mercedes')
 
 
+console.log('\n')
 
 // NO.24
 console.log('Answer No.24 > > > > > > > ')
 
-let name1 = 'Latif'
-let name2 = 'latif'
+let name1:string = 'Latif'
+let name2:string = 'latif'
 console.log(name1 != name2)
 console.log(name1 == name2)
 
 console.log(name1.toLowerCase() == name2)
 console.log(name1.toLowerCase() != name2)
 
-let num1 = 5
-let num2 = 4
-let num3 = 3
+let num1:number = 5
+let num2:number = 4
+let num3:number = 3
 console.log(num1 != num2)
 console.log(num1 == num2)
 console.log(num1 > num2)
@@ -324,18 +346,19 @@ console.log(num1 < num2 && num2 < num3)
 console.log(num1 < num2 || num2 > num3)
 console.log(num1 < num2 || num2 < num3)
 
-const fruits = ['mango', 'banana', 'apple', 'grapes']
+const fruits:string[] = ['mango', 'banana', 'apple', 'grapes']
 console.log(fruits.includes('mango'))
 console.log(fruits.includes('orange'))
 
 console.log(!fruits.includes('orange'))
 console.log(!fruits.includes('mango'))
 
+console.log('\n')
 
 // NO.25
 console.log('Answer No.25 > > > > > > > ')
 
-let aliienColor = 'green'
+let aliienColor:string = 'green'
 if (aliienColor == 'green') {
     console.log('you earned 5 points')
 }
@@ -344,11 +367,12 @@ aliienColor = 'blue'
 if (aliienColor == 'green') {
     console.log('you earned 5 points')
 }
+console.log('\n')
 
 // NO.26
 console.log('Answer No.26 > > > > > > > ')
 
-let aliienColor1 = 'green'
+let aliienColor1:string = 'green'
 if (aliienColor1 == 'green') {
     console.log('you earned 5 points for shooting alien')
 } else {
@@ -361,11 +385,12 @@ if (aliienColor1 == 'green') {
 } else {
     console.log('you just earned 10 points for shooting alien')
 }
+console.log('\n')
 
 // NO.27
 console.log('Answer No.27 > > > > > > > ')
 
-let aliienColor2 = 'green'
+let aliienColor2:string = 'green'
 if (aliienColor2 == 'green') {
     console.log('you earned 5 points for shooting alien')
 } else if (aliienColor2 == 'yellow') {
@@ -391,11 +416,12 @@ if (aliienColor2 == 'green') {
 } else if (aliienColor2 == 'red') {
     console.log('you earned 15 points for shooting alien')
 }
+console.log('\n')
 
 // NO.28
 console.log('Answer No.28 > > > > > > > ')
 
-let age = 70
+let age:number = 70
 if (age < 2) {
     console.log('The Person is a baby')
 } else if (age === 2 || age < 4) {
@@ -406,14 +432,15 @@ if (age < 2) {
     console.log('The Person is a teenager')
 } else if (age === 20 || age < 65) {
     console.log('The Person is a adult')
-} else (age >= 65){
+} else if (age >= 65) {
     console.log('The Person is a older')
 }
+console.log('\n')
 
 // NO.29
 console.log('Answer No.29 > > > > > > > ')
 
-let fruits1 = ['Mango', 'Banana', 'Apple']
+let fruits1:string[] = ['Mango', 'Banana', 'Apple']
 if (fruits1.includes('Mango')) {
     console.log('I like Mango')
 }
@@ -429,11 +456,12 @@ if (fruits1.includes('Orange')) {
 if (fruits1.includes('Grapes')) {
     console.log('I like Grapes')
 }
+console.log('\n')
 
 // NO.30
 console.log('Answer No.30 > > > > > > > ')
 
-let userName = ['admin', 'yousuf', 'dawood', 'rafiq', 'shoaib']
+let userName:string[] = ['admin', 'yousuf', 'dawood', 'rafiq', 'shoaib']
 
 for (let name of userName) {
     if (name == 'admin') {
@@ -442,11 +470,12 @@ for (let name of userName) {
         console.log(`Hello ${name}, thank you for logging in again.`)
     }
 }
+console.log('\n')
 
 // NO.31
 console.log('Answer No.31 > > > > > > > ')
 
-let userNamePrev = ['admin', 'yousuf', 'dawood', 'rafiq', 'shoaib']
+let userNamePrev:string[] = ['admin', 'yousuf', 'dawood', 'rafiq', 'shoaib']
 
 for (let name of userNamePrev) {
     if (name == 'admin') {
@@ -459,12 +488,13 @@ userNamePrev = []
 if (userNamePrev.length === 0) {
     console.log('We need to find some users!')
 }
+console.log('\n')
 
 // NO.32
 console.log('Answer No.32 > > > > > > > ')
 
-const oldUsers = ['yousuf', 'dawood', 'rafiq', 'shoaib', 'qasim']
-const newUsers = ['yousuf', 'iqbal', 'rafiq', 'haroon', 'latif']
+const oldUsers:string[] = ['yousuf', 'dawood', 'rafiq', 'shoaib', 'qasim']
+const newUsers:string[] = ['yousuf', 'iqbal', 'rafiq', 'haroon', 'latif']
 
 for (const i of newUsers) {
     if (oldUsers.includes(i)) {
@@ -473,12 +503,13 @@ for (const i of newUsers) {
         console.log(`User Name '${i}' is available.`)
     }
 }
+console.log('\n')
 
 // NO.33
 console.log('Answer No.33 > > > > > > > ')
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-let ordinal = ''
+let numbers:number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+let ordinal:string = ''
 for (let number of numbers) {
     if (number === 1) {
         ordinal = 'st'
@@ -491,11 +522,12 @@ for (let number of numbers) {
     }
     console.log(`${number}${ordinal}`)
 }
+console.log('\n')
 
 // NO.34
 console.log('Answer No.34 > > > > > > > ')
 
-let pizzaFlavor = ['BBQ Chicken', 'Fajita', 'Pepperoni']
+let pizzaFlavor:string[] = ['BBQ Chicken', 'Fajita', 'Pepperoni']
 
 for (let pizza of pizzaFlavor) {
     console.log(pizza)
@@ -505,11 +537,12 @@ for (let pizza of pizzaFlavor) {
 }
 console.log('I really Love Pizza');
 
+console.log('\n')
 
 // NO.35
 console.log('Answer No.35 > > > > > > > ')
 
-const animals = ['dog', 'cow', 'goat']
+const animals:string[] = ['dog', 'cow', 'goat']
 for (const i of animals) {
     console.log(i)
 }
@@ -525,6 +558,7 @@ for (const i of animals) {
 }
 
 console.log('All of them are known as excellent pets')
+console.log('\n')
 
 // NO.36
 console.log('Answer No.36 > > > > > > > ')
@@ -535,6 +569,7 @@ const make_shirt = (size: string, message: string) => {
 }
 
 make_shirt("Large", "Abdul Latif'Shirt")
+console.log('\n')
 
 // NO.37
 console.log('Answer No.37 > > > > > > > ')
@@ -542,6 +577,7 @@ console.log('Answer No.37 > > > > > > > ')
 make_shirt("Large", "I love TypeScript.")
 make_shirt("Medium", "Abdul Latif'Shirt")
 make_shirt("Small", "Shirt of small size")
+console.log('\n')
 
 // NO.38
 console.log('Answer No.38 > > > > > > > ')
@@ -552,6 +588,7 @@ const describe_city = (city: string, country: string) => {
 describe_city("Karachi", "Pakistan")
 describe_city("Mumbai", "India")
 describe_city("Dhaka", "Bangladesh")
+console.log('\n')
 
 // NO.39
 console.log('Answer No.39 > > > > > > > ')
@@ -562,11 +599,12 @@ const city_country = (city: string, country: string) => {
 console.log(city_country("Karachi", "Pakistan"))
 console.log(city_country("Mumbai", "India"))
 console.log(city_country("Dhaka", "Bangladesh"))
+console.log('\n')
 
 // NO.40
 console.log('Answer No.40 > > > > > > > ')
 
-const make_album = (artist: string, album: string, track: number) => {
+const makeAlbum = (artist: string, album: string, track?: number): void => {
     if (track !== undefined) {
         console.log(`Artist Name: ${artist}, Album Name: ${album}, Track is ${track}`)
 
@@ -576,33 +614,81 @@ const make_album = (artist: string, album: string, track: number) => {
     }
 }
 
-make_album('ABC', 'DEF', 12)
-make_album('XYZ', 'GHI', 10)
-make_album('ABC', 'DEF')
+makeAlbum('ABC', 'DEF', 12)
+makeAlbum('XYZ', 'GHI', 10);
+makeAlbum('ABC', 'DEF')
 
+console.log('\n')
 
 // NO.41
 console.log('Answer No.41 > > > > > > > ')
 
-const megiciansName = ['Aalto', 'Simo.Abbot', 'David' · 'Baker', 'Al·Balducci', 'Ed·Cagliostro', 'Alessandro·Calver']
+const magicianNames: string[] = ['Aalto', 'Simo Abbot', 'David Baker', 'Al Balducci', 'Ed Cagliostro', 'Alessandro Calver'];
 
-const show_megicians = (megicians: string) => {
-    for (const i of megicians) {
-        console.log(i)
+function showMagicians(magicians: string[]) {
+    for (const magician of magicians) {
+        console.log(magician);
     }
 }
 
-show_megicians(megiciansName)
+showMagicians(magicianNames);
 
+console.log('\n')
 
 // NO.42
 console.log('Answer No.42 > > > > > > > ')
 
-const greatMegicians = (megicians: string) => {
-    for (const i of megicians) {
-        console.log(`The Great ${i}`)
+function greetMagicians(magicians: string[]) {
+    for (const magician of magicians) {
+        console.log(`The Great ${magician}`);
     }
 }
 
-greatMegicians(megiciansName)
+greetMagicians(magicianNames);
+console.log('\n')
 
+// NO.43
+console.log('Answer No.43 > > > > > > > ')
+
+const originalMegicians:any = showMagicians(magicianNames)
+const makeGreat:any = greetMagicians(magicianNames)
+console.log(originalMegicians)
+console.log(makeGreat)
+console.log('\n')
+
+// NO.44
+console.log('Answer No.44 > > > > > > > ')
+
+function sandwiches(...items: string[]): void {
+    if(items.length === 0){
+        console.log("No order of sandwiches")
+    }else{
+        items.forEach((item, i) => {
+            console.log(`Order No.${i + 1} = ${item}`)
+})}
+}
+sandwiches();
+sandwiches('Egg Sandwich', 'Seafood Sandwich','Roast Beef Sandwich');
+sandwiches('Grilled Cheese', 'Ham Sandwich', 'Nutella Sandwich');
+sandwiches('Seafood Sandwich','Roast Beef Sandwich', 'Nutella Sandwich');
+console.log('\n')
+
+console.log('\n')
+
+// NO.45
+console.log('Answer No.45 > > > > > > > ')
+
+function carObject(manufacturer:string, model:string, ...properties:any): any {
+    const car:any = {
+        manufacturer,
+        model
+    };
+    for (const [key, value] of properties){
+        car[key] = value
+    }
+    return car;
+}
+
+const carNoOne:string = carObject('Honda', 'City', ['Color', 'Red'], ['Year', '2006'])
+
+console.log(carNoOne)

@@ -1,12 +1,13 @@
 "use strict";
 // NO.1
-// installed Node.js, TypeScript and VS Code
-Object.defineProperty(exports, "__esModule", { value: true });
+console.log('installed Node.js, TypeScript and VS Code');
+console.log('\n');
 // NO.2
 console.log('Answer No.2 > > > > > > > ');
 let personName = "Abdul Latif";
 let message = `Hello ${personName}, would you like to learn some python today?`;
 console.log(message);
+console.log('\n');
 // NO.3
 console.log('Answer No.3 > > > > > > > ');
 let lowerCase = personName.toLowerCase();
@@ -19,20 +20,24 @@ for (let i = 0; i < caseOne.length; i++) {
     titleCase += caseOne[i].charAt(0).toUpperCase() + caseOne[i].slice(1).toLowerCase() + " ";
 }
 console.log(titleCase);
+console.log('\n');
 // NO.4
 console.log('Answer No.4 > > > > > > > ');
 console.log('Hazrat Umer (R.A) once said “No amount of guilt can change the past and no amount of worrying can change the future.”');
+console.log('\n');
 // NO.5
 console.log('Answer No.5 > > > > > > > ');
 let famous_person = "Hazrat Umer (R.A)";
 let message2 = "No amount of guilt can change the past and no amount of worrying can change the future.";
 console.log(`${famous_person} once said "${message2}"`);
+console.log('\n');
 // NO.6
 console.log('Answer No.6 > > > > > > > ');
 let personsName = "\t    Abdul Latif    \n";
 console.log("person's Name with whitespace =>", personsName);
 let strippedName = personsName.trim();
 console.log("Person's Name without whitespace =>", strippedName);
+console.log('\n');
 // NO.7
 console.log('Answer No.7 > > > > > > > ');
 let addition = 4 + 4;
@@ -43,17 +48,20 @@ let multiplication = 2 * 4;
 console.log(multiplication);
 let division = 16 / 2;
 console.log(division);
+console.log('\n');
 // NO.8
 console.log('Answer No.8 > > > > > > > ');
 console.log(4 + 4);
 console.log(16 - 8);
 console.log(2 * 4);
 console.log(16 / 2);
+console.log('\n');
 // NO.9
 console.log('Answer No.9 > > > > > > > ');
 let favoriteNumber = 19;
 let printMessage = `my favorite number is ${favoriteNumber}`;
 console.log(printMessage);
+console.log('\n');
 // NO.10
 console.log('Answer No.10 > > > > > > > ');
 //  Stored number in a variable. used that variable, created a message that reveals stored number.
@@ -69,6 +77,7 @@ let multiplication1 = 2 * 4;
 console.log(multiplication1);
 let division1 = 16 / 2;
 console.log(division1);
+console.log('\n');
 // NO.11
 console.log('Answer No.11 > > > > > > > ');
 let friendsName = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib'];
@@ -76,24 +85,28 @@ console.log(friendsName[0]);
 console.log(friendsName[1]);
 console.log(friendsName[2]);
 console.log(friendsName[3]);
+console.log('\n');
 // NO.12
 console.log('Answer No.12 > > > > > > > ');
 let friendsName1 = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib'];
 for (let name of friendsName1) {
     console.log(`Assalamoalaikum ${name}`);
 }
+console.log('\n');
 // NO.13
 console.log('Answer No.13 > > > > > > > ');
 let transportation = [['Vigo', 'Car'], ['Corolla', 'Car'], ['Suzuki', 'Bike']];
 transportation.forEach(([brand, transport]) => {
     console.log(`I would like to own a ${brand} ${transport}`);
 });
+console.log('\n');
 // NO.14
 console.log('Answer No.14 > > > > > > > ');
 let favoriteGuest = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib'];
 for (let guest of favoriteGuest) {
     console.log(`Dear ${guest}, you are invited for dinner at restaurant`);
 }
+console.log('\n');
 // NO.15
 console.log('Answer No.15 > > > > > > > ');
 // guest who cant join dinner
@@ -106,6 +119,7 @@ for (let guest of favoriteGuest) {
     // new messages and invitation list
     console.log(`Dear ${guest}, you are invited for dinner at restaurant`);
 }
+console.log('\n');
 // NO.16
 console.log('Answer No.16 > > > > > > > ');
 for (let guest of favoriteGuest) {
@@ -126,6 +140,7 @@ favoriteGuest.push(addNewInEnd);
 for (let guest of favoriteGuest) {
     console.log(`Dear ${guest}, you are invited for dinner at restaurant`);
 }
+console.log('\n');
 // NO.17
 console.log('Answer No.17 > > > > > > > ');
 console.log('i can invite only two people for dinner');
@@ -142,6 +157,7 @@ for (let guest of favoriteGuest) {
 favoriteGuest.pop();
 favoriteGuest.pop();
 console.log('guest list after programme =>', favoriteGuest);
+console.log('\n');
 // NO.18
 console.log('Answer No.18 > > > > > > > ');
 let favoritePlaces = ['Makkah', 'Madinah', 'Baghdad', 'Ajmer', 'Turkey'];
@@ -154,10 +170,12 @@ console.log('change list in reverse =>', favoritePlaces.reverse());
 console.log('back to original list =>', favoritePlaces.reverse());
 console.log('stored in alphabetical order =>', favoritePlaces.sort());
 console.log('stored in alphabetical order =>', favoritePlaces.reverse());
+console.log('\n');
 // NO.19
 console.log('Answer No.19 > > > > > > > ');
 let favoriteGuestOld = ['Yousuf', 'Dawood', 'Rafiq', 'Shoaib'];
 console.log(`we are inviting ${favoriteGuestOld.length} guest for dinner`);
+console.log('\n');
 // NO.20
 console.log('Answer No.20 > > > > > > > ');
 let languages = ['Urdu', 'Memon', 'Sindhi', 'Punjabi', 'Balochi', 'Pashtu'];
@@ -165,6 +183,7 @@ console.log('List of Languages...');
 for (let language of languages) {
     console.log(language);
 }
+console.log('\n');
 // NO.21
 console.log('Answer No.21 > > > > > > > ');
 const student = {
@@ -193,11 +212,13 @@ const student4 = {
 };
 students.push(student4);
 console.log(students);
+console.log('\n');
 // NO.22
 console.log('Answer No.22 > > > > > > > ');
 let friends = ['qasim', 'latif', 'yousuf', 'bilal', 'hussain'];
 const findFriend = 7;
 console.log(friends[findFriend]);
+console.log('\n');
 // NO.23
 console.log('Answer No.23 > > > > > > > ');
 let car = 'subaru';
@@ -221,6 +242,7 @@ console.log("Is car != 'mercedes'? I predict True.");
 console.log(car != 'mercedes');
 console.log("Is car == 'mercedes'? I predict False.");
 console.log(car == 'mercedes');
+console.log('\n');
 // NO.24
 console.log('Answer No.24 > > > > > > > ');
 let name1 = 'Latif';
@@ -247,6 +269,7 @@ console.log(fruits.includes('mango'));
 console.log(fruits.includes('orange'));
 console.log(!fruits.includes('orange'));
 console.log(!fruits.includes('mango'));
+console.log('\n');
 // NO.25
 console.log('Answer No.25 > > > > > > > ');
 let aliienColor = 'green';
@@ -257,6 +280,7 @@ aliienColor = 'blue';
 if (aliienColor == 'green') {
     console.log('you earned 5 points');
 }
+console.log('\n');
 // NO.26
 console.log('Answer No.26 > > > > > > > ');
 let aliienColor1 = 'green';
@@ -273,6 +297,7 @@ if (aliienColor1 == 'green') {
 else {
     console.log('you just earned 10 points for shooting alien');
 }
+console.log('\n');
 // NO.27
 console.log('Answer No.27 > > > > > > > ');
 let aliienColor2 = 'green';
@@ -305,6 +330,7 @@ else if (aliienColor2 == 'yellow') {
 else if (aliienColor2 == 'red') {
     console.log('you earned 15 points for shooting alien');
 }
+console.log('\n');
 // NO.28
 console.log('Answer No.28 > > > > > > > ');
 let age = 70;
@@ -323,11 +349,10 @@ else if (age === 13 || age < 20) {
 else if (age === 20 || age < 65) {
     console.log('The Person is a adult');
 }
-else
-    (age >= 65);
-{
+else if (age >= 65) {
     console.log('The Person is a older');
 }
+console.log('\n');
 // NO.29
 console.log('Answer No.29 > > > > > > > ');
 let fruits1 = ['Mango', 'Banana', 'Apple'];
@@ -346,6 +371,7 @@ if (fruits1.includes('Orange')) {
 if (fruits1.includes('Grapes')) {
     console.log('I like Grapes');
 }
+console.log('\n');
 // NO.30
 console.log('Answer No.30 > > > > > > > ');
 let userName = ['admin', 'yousuf', 'dawood', 'rafiq', 'shoaib'];
@@ -357,6 +383,7 @@ for (let name of userName) {
         console.log(`Hello ${name}, thank you for logging in again.`);
     }
 }
+console.log('\n');
 // NO.31
 console.log('Answer No.31 > > > > > > > ');
 let userNamePrev = ['admin', 'yousuf', 'dawood', 'rafiq', 'shoaib'];
@@ -372,6 +399,7 @@ userNamePrev = [];
 if (userNamePrev.length === 0) {
     console.log('We need to find some users!');
 }
+console.log('\n');
 // NO.32
 console.log('Answer No.32 > > > > > > > ');
 const oldUsers = ['yousuf', 'dawood', 'rafiq', 'shoaib', 'qasim'];
@@ -384,6 +412,7 @@ for (const i of newUsers) {
         console.log(`User Name '${i}' is available.`);
     }
 }
+console.log('\n');
 // NO.33
 console.log('Answer No.33 > > > > > > > ');
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -403,6 +432,7 @@ for (let number of numbers) {
     }
     console.log(`${number}${ordinal}`);
 }
+console.log('\n');
 // NO.34
 console.log('Answer No.34 > > > > > > > ');
 let pizzaFlavor = ['BBQ Chicken', 'Fajita', 'Pepperoni'];
@@ -413,6 +443,7 @@ for (let pizza of pizzaFlavor) {
     console.log(`I like ${pizza} pizza`);
 }
 console.log('I really Love Pizza');
+console.log('\n');
 // NO.35
 console.log('Answer No.35 > > > > > > > ');
 const animals = ['dog', 'cow', 'goat'];
@@ -431,17 +462,20 @@ for (const i of animals) {
     }
 }
 console.log('All of them are known as excellent pets');
+console.log('\n');
 // NO.36
 console.log('Answer No.36 > > > > > > > ');
 const make_shirt = (size, message) => {
     console.log(`size: ${size}, message: ${message}`);
 };
 make_shirt("Large", "Abdul Latif'Shirt");
+console.log('\n');
 // NO.37
 console.log('Answer No.37 > > > > > > > ');
 make_shirt("Large", "I love TypeScript.");
 make_shirt("Medium", "Abdul Latif'Shirt");
 make_shirt("Small", "Shirt of small size");
+console.log('\n');
 // NO.38
 console.log('Answer No.38 > > > > > > > ');
 const describe_city = (city, country) => {
@@ -450,6 +484,7 @@ const describe_city = (city, country) => {
 describe_city("Karachi", "Pakistan");
 describe_city("Mumbai", "India");
 describe_city("Dhaka", "Bangladesh");
+console.log('\n');
 // NO.39
 console.log('Answer No.39 > > > > > > > ');
 const city_country = (city, country) => {
@@ -458,9 +493,10 @@ const city_country = (city, country) => {
 console.log(city_country("Karachi", "Pakistan"));
 console.log(city_country("Mumbai", "India"));
 console.log(city_country("Dhaka", "Bangladesh"));
+console.log('\n');
 // NO.40
 console.log('Answer No.40 > > > > > > > ');
-const make_album = (artist, album, track) => {
+const makeAlbum = (artist, album, track) => {
     if (track !== undefined) {
         console.log(`Artist Name: ${artist}, Album Name: ${album}, Track is ${track}`);
     }
@@ -468,23 +504,65 @@ const make_album = (artist, album, track) => {
         console.log(`Artist Name: ${artist}, Album Name: ${album}`);
     }
 };
-make_album('ABC', 'DEF', 12);
-make_album('XYZ', 'GHI', 10);
-make_album('ABC', 'DEF');
+makeAlbum('ABC', 'DEF', 12);
+makeAlbum('XYZ', 'GHI', 10);
+makeAlbum('ABC', 'DEF');
+console.log('\n');
 // NO.41
 console.log('Answer No.41 > > > > > > > ');
-const megiciansName = ['Aalto', 'Simo.Abbot', 'David', 'Baker', 'Al·Balducci', 'Ed·Cagliostro', 'Alessandro·Calver'];
-const show_megicians = (megicians) => {
-    for (const i of megicians) {
-        console.log(i);
+const magicianNames = ['Aalto', 'Simo Abbot', 'David Baker', 'Al Balducci', 'Ed Cagliostro', 'Alessandro Calver'];
+function showMagicians(magicians) {
+    for (const magician of magicians) {
+        console.log(magician);
     }
-};
-show_megicians(megiciansName);
+}
+showMagicians(magicianNames);
+console.log('\n');
 // NO.42
 console.log('Answer No.42 > > > > > > > ');
-const greatMegicians = (megicians) => {
-    for (const i of megicians) {
-        console.log(`The Great ${i}`);
+function greetMagicians(magicians) {
+    for (const magician of magicians) {
+        console.log(`The Great ${magician}`);
     }
-};
-greatMegicians(megiciansName);
+}
+greetMagicians(magicianNames);
+console.log('\n');
+// NO.43
+console.log('Answer No.43 > > > > > > > ');
+const originalMegicians = showMagicians(magicianNames);
+const makeGreat = greetMagicians(magicianNames);
+console.log(originalMegicians);
+console.log(makeGreat);
+console.log('\n');
+// NO.44
+console.log('Answer No.44 > > > > > > > ');
+function sandwiches(...items) {
+    if (items.length === 0) {
+        console.log("No order of sandwiches");
+    }
+    else {
+        items.forEach((item, i) => {
+            console.log(`Order No.${i + 1} = ${item}`);
+        });
+    }
+}
+sandwiches();
+sandwiches('Egg Sandwich', 'Seafood Sandwich', 'Roast Beef Sandwich');
+sandwiches('Grilled Cheese', 'Ham Sandwich', 'Nutella Sandwich');
+sandwiches('Seafood Sandwich', 'Roast Beef Sandwich', 'Nutella Sandwich');
+console.log('\n');
+console.log('\n');
+// NO.45
+console.log('Answer No.45 > > > > > > > ');
+function carObject(manufacturer, model, ...properties) {
+    const car = {
+        manufacturer,
+        model
+    };
+    for (const [key, value] of properties) {
+        car[key] = value;
+    }
+    return car;
+}
+const carNoOne = carObject('Honda', 'City', ['Color', 'Red'], ['Year', '2006']);
+console.log(carNoOne);
